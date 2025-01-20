@@ -1,3 +1,4 @@
+const a = [];
 const delay = (ms) => new Promise(resolve => setTimeout(resolve, ms));
 try{
 const startGame = document.querySelector(`[aria-label="Start game"]`);
